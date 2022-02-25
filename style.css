@@ -1,0 +1,121 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.moveleft {
+  float: right;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 75%;
+}
+#connect a {
+  margin: 0 15px;
+}
+.title-section {
+  margin-bottom: 1.8em;
+}
+
+.hero {
+  color: #fff;
+}
+
+.hero a {
+  color: #fff;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(45deg, #8944b8, #df314c, #ffcd5e);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-toggler, .navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:active {
+  border: none;
+  outline: none;
+}
+
+.hero .main {
+  height: 100vh;
+  margin-top: -57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero .main .typer {
+  color: #fff !important;
+}
+
+
+.about .jumbotron {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+/* CARD */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    box-shadow: 7px 6px 6px #d8d8d8;
+    /* color: black; */
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    /* color: #4183D7; */
+    /* font-size: 16px; */
+}
+
+.fa{
+     color:#4183D7;
+}
